@@ -20,9 +20,17 @@ module.exports = function(grunt){
             public: {
                 expand: true,
                 cwd: global.origemPath,
+                src: '**',
+                dest: global.destinoPath
+            },
+
+            index: {
+                expand: true,
+                cwd: global.origemPath,
                 src: 'index.html',
                 dest: global.destinoPath
-            }
+            },
+
         }
 
     });
@@ -35,6 +43,6 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-clean');
 
     //Registra tarefas
-    grunt.registerTask('dist', ['clean', 'copy']);
-    grunt.registerTask('default', ['copy']);
+    grunt.registerTask('dist', ['clean', 'copy:index']);
+    grunt.registerTask('default', ['dist']);
 };
