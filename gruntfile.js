@@ -19,8 +19,8 @@ module.exports = function(grunt){
 
             public: {
                 expand: true,
-                cwd: '/',
-                src: global.origemPath + 'index.html',
+                cwd: global.origemPath,
+                src: 'index.html',
                 dest: global.destinoPath
             }
         }
@@ -32,7 +32,9 @@ module.exports = function(grunt){
 
     //Carregando tarefas do NPM
     grunt.loadNpmTasks('grunt-contrib-copy');
+    grunt.loadNpmTasks('grunt-contrib-clean');
 
     //Registra tarefas
+    grunt.registerTask('dist', ['clean', 'copy']);
     grunt.registerTask('default', ['copy']);
 };
