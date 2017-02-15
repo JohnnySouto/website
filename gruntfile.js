@@ -43,6 +43,6 @@ module.exports = function(grunt){
     grunt.loadNpmTasks('grunt-contrib-clean');
 
     //Registra tarefas
-    grunt.registerTask('dist', ['clean', 'copy:index']);
-    grunt.registerTask('default', ['dist']);
+    grunt.registerTask('dist', ['clean', 'copy']);
+    grunt.registerTask('default', ['copy:index']);
 };
