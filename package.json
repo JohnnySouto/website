@@ -1,0 +1,19 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Web site pessoal do Johnny Souto",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnySouto/website.git"
+  },
+  "author": "Johnny Souto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnnySouto/website/issues"
+  },
+  "homepage": "https://github.com/JohnnySouto/website#readme"
+}
