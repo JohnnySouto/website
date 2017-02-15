@@ -10,14 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/JohnnySouto/website.git"
   },
-  "author": "Johnny Souto",
-  "license": "ISC",
+  "author": "Johnny Souto <johnnyjns@gmail.com>",
+  "license": "© Johnny Souto - Todos os direitos resevados.",
   "bugs": {
     "url": "https://github.com/JohnnySouto/website/issues"
   },
-  "homepage": "https://github.com/JohnnySouto/website#readme",
+  "homepage": "http://www.johnnysouto.com.br/",
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-cli": "^1.2.0"
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0"
   }
 }
