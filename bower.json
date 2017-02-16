@@ -7,8 +7,8 @@
   ],
   "license": "© Johnny Souto - Todos os direitos resevados.",
   "homepage": "http://www.johnnysouto.com.br/",
-  "dependencies": {
-    "bootstrap": "^3.3.7",
-    "jquery": "^3.1.1"
+  "devDependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7"
   }
 }
