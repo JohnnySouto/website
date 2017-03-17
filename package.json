@@ -16,12 +16,15 @@
     "url": "https://github.com/JohnnySouto/website/issues"
   },
   "homepage": "http://www.johnnysouto.com.br/",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  },
   "devDependencies": {
-    "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
     "grunt-chokidar": "^1.0.0",
-    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-requirejs": "^1.0.0",
     "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-copy": "^1.0.0"
   }
 }

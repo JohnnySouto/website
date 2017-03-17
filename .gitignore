@@ -60,3 +60,5 @@ node_modules
 
 # resultado da compilação
 /public_html
+/teste
+/bower_components
