@@ -9,10 +9,8 @@
         <script>
           var lang = navigator.language || navigator.userLanguage;
           if(lang == 'en-US'){
-            // window.location.replace("http://www.johnnysouto.com.br/en");
             window.location.replace("./en");
           } else {
-            // window.location.replace("http://www.johnnysouto.com.br/br");
             window.location.replace("./br");
           }
           console.log("Navegador esta no idioma: " + lang);
