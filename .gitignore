@@ -58,5 +58,9 @@ dwsync.xml
 #####################
 node_modules
 
+# bower #
+bower_components
+
 # resultado da compilação #
 /public_html
+#.ftpconfig
