@@ -1,7 +1,7 @@
 {
   "name": "website",
   "description": "Web site pessoal do Johnny Souto",
-  "main": "index.js",
+  "main": "./src/app/js/web.js",
   "authors": [
     "Johnny Souto <johnnyjns@gmail.com>"
   ],
